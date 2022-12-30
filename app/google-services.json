@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1028509535742",
+    "project_id": "awondb-5047d",
+    "storage_bucket": "awondb-5047d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028509535742:android:3a2364ac5d7f31d01384af",
+        "android_client_info": {
+          "package_name": "com.example.awon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028509535742-115bgj06e1r8bnfb7kgid8uf3gffs5nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsZmAPmbbqe2WHWAejaWgOXWXudKT3NKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028509535742-115bgj06e1r8bnfb7kgid8uf3gffs5nk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

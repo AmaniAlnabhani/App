@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#3fff"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إنضم إلى مجتمع عون "
+            android:textFontWeight="10"
+            android:textColorHint="@color/purple"
+            android:fontFamily="@string/fab_transformation_sheet_behavior"
+            android:layout_marginBottom="20dp"
+
+            android:gravity="center"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:id="@+id/name"
+            android:textColorHint="@color/blue"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="الاسم"
+
+            android:inputType="text"
+
+            />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="رقم الهاتف"
+            android:textColorHint="@color/blue"
+            android:inputType="phone"
+
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="البريد الإلكتروني"
+            android:textColorHint="@color/blue"
+            android:inputType="textEmailAddress"
+
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="كلمة المرور"
+            android:textColorHint="@color/blue"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="إنضم معنا"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/green"
+            android:textColor="#FFFBF6"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لديك حساب مسبق في مجتمع عون؟ سجل الدخول من هنا"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
