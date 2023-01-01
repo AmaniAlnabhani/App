@@ -16,13 +16,13 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 
-import com.example.awon.databinding.HomeBinding;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
 
 public class MainActivity extends AppCompatActivity {
-    private  static int SPLASH_SCREEN=5000; // mean 5 seconds
+    private  static int SPLASH_SCREEN=3000; // mean 5 seconds
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(getApplicationContext(), Home.class);
+                Intent intent = new Intent(MainActivity.this,Home.class);
                 startActivity(intent);
                 finish();
             }

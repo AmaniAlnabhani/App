@@ -27,16 +27,17 @@
 
             android:gravity="center"
             android:textColor="#ffffff"/>
+
         <EditText
             android:id="@+id/email"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
             android:layout_marginTop="15dp"
             android:gravity="center"
-            android:layout_width="250dp"
-            android:layout_height="40dp"
             android:hint="البريد الإلكتروني"
-            android:textColorHint="@color/blue"
-
             android:inputType="textEmailAddress"
+
+            android:textColorHint="@color/blue"
 
             />
         <EditText
@@ -54,12 +55,12 @@
         <Button
             android:id="@+id/login"
             android:layout_width="250dp"
-            android:layout_height="40dp"
-            android:text="دخول"
-            android:textAllCaps="false"
+            android:layout_height="48dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/green"
-            android:textColor="#FFFBF6"/>
+            android:text="دخول"
+            android:textAllCaps="false"
+            android:textColor="#FFFBF6" />
 
 
 
